@@ -28,7 +28,7 @@ jobs:
             --icon=icons/app.ico `
             --add-data "icons;icons" `
             --name "KarlsLetterMaker" `
-            import_sys_fixed.py
+            main.py
 
       - name: Upload EXE as artifact
         uses: actions/upload-artifact@v4
